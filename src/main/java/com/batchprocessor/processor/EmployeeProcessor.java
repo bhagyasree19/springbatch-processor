@@ -1,9 +1,9 @@
-package com.onlinetutorialspoint.processor;
+package com.batchprocessor.processor;
 
-import com.onlinetutorialspoint.model.Employee;
-
-import com.onlinetutorialspoint.model.EmployeeDTO;
 import org.springframework.batch.item.ItemProcessor;
+
+import com.batchprocessor.model.Employee;
+import com.batchprocessor.model.EmployeeDTO;
 
 public class EmployeeProcessor implements ItemProcessor<Employee, EmployeeDTO> {
 

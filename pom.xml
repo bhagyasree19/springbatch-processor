@@ -8,11 +8,11 @@
 		<version>2.1.3.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.onlinetutorialspoint</groupId>
-	<artifactId>SpringBoot-Batch-Example</artifactId>
+	<groupId>com.batchprocessor</groupId>
+	<artifactId>SpringBoot-Batch-Processor</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringBoot-Batch-Example</name>
-	<description>Spring Boot Batch CSV to Database Example</description>
+	<description>Read data from file and insert into DB</description>
 
 	<properties>
 		<java.version>1.8</java.version>

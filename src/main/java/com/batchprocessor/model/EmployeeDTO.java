@@ -1,8 +1,6 @@
-package com.onlinetutorialspoint.model;
+package com.batchprocessor.model;
 
-import java.io.Serializable;
-
-public class Employee implements Serializable {
+public class EmployeeDTO {
     private String firstName;
     private String lastName;
     private String companyName;
@@ -13,10 +11,10 @@ public class Employee implements Serializable {
     private String zip;
 
 
-    public Employee() {
+    public EmployeeDTO() {
     }
 
-    public Employee(String firstName, String lastName, String companyName, String address, String city, String county, String state, String zip) {
+    public EmployeeDTO(String firstName, String lastName, String companyName, String address, String city, String county, String state, String zip) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.companyName = companyName;
@@ -89,5 +87,19 @@ public class Employee implements Serializable {
 
     public void setZip(String zip) {
         this.zip = zip;
+    }
+
+    @Override
+    public String toString() {
+        return "EmployeeDTO{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", companyName='" + companyName + '\'' +
+                ", address='" + address + '\'' +
+                ", city='" + city + '\'' +
+                ", county='" + county + '\'' +
+                ", state='" + state + '\'' +
+                ", zip='" + zip + '\'' +
+                '}';
     }
 }

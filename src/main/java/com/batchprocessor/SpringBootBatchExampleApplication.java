@@ -1,4 +1,4 @@
-package com.onlinetutorialspoint;
+package com.batchprocessor;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

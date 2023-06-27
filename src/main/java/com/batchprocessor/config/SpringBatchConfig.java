@@ -1,9 +1,5 @@
-package com.onlinetutorialspoint.config;
+package com.batchprocessor.config;
 
-import com.onlinetutorialspoint.listener.JobListener;
-import com.onlinetutorialspoint.model.Employee;
-import com.onlinetutorialspoint.model.EmployeeDTO;
-import com.onlinetutorialspoint.processor.EmployeeProcessor;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
@@ -20,6 +16,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
+
+import com.batchprocessor.listener.JobListener;
+import com.batchprocessor.model.Employee;
+import com.batchprocessor.model.EmployeeDTO;
+import com.batchprocessor.processor.EmployeeProcessor;
 
 import javax.sql.DataSource;
 
